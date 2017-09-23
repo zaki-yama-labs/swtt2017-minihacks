@@ -9,7 +9,8 @@
         <name>CustomApplication</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Show__c</members>
+        <members>Ticket__c</members>
         <name>CustomObject</name>
     </types>
     <types>
