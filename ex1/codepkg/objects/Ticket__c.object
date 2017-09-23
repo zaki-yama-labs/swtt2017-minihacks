@@ -132,5 +132,11 @@
     </nameField>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>BookedSeatsExceedTotal</fullName>
+        <active>true</active>
+        <errorConditionFormula>ShowId__r.TotalSeats__c - ShowId__r.BookedSeats__c &lt; NumberOfTotalSeats__c</errorConditionFormula>
+        <errorMessage>座席数が足りません</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>
