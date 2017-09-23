@@ -18,5 +18,10 @@
         <members>Ticket__c</members>
         <name>CustomTab</name>
     </types>
+    <types>
+        <members>Show__c-ショーレイアウト</members>
+        <members>Ticket__c-チケットレイアウト</members>
+        <name>Layout</name>
+    </types>
     <version>40.0</version>
 </Package>
