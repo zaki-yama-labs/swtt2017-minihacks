@@ -1,4 +1,4 @@
-課題1
+課題2
 =====
 
 ### 使い方
@@ -11,10 +11,3 @@
 ```
 $ ant deployCode
 ```
-
-- 組織にログインすると「課題1」というアプリケーションが作成されている（中身はカスタムオブジェクトのタブ）
-
-
-### Author
-
-[zaki-yama](https://github.com/zaki-yama) ( [blog(Japanese)](http://dackdive.hateblo.jp/) )
