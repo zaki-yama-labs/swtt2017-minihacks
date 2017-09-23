@@ -6,7 +6,7 @@
         - retrieve 先ディレクトリ -->
     <property name="property" value="build.properties"/>
     <property name="deployTarget" value="codepkg"/>
-    <property name="retrieveTarget" value="retrievecodepkg"/>
+    <property name="retrieveTarget" value="codepkg"/>
 
     <available file="${property}" property="property.exists" />
     <fail unless="${property.exists}" message="Property file does not exist: ${property}" />
