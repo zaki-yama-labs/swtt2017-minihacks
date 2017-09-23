@@ -4,5 +4,9 @@
         <members>Property_View</members>
         <name>FlexiPage</name>
     </types>
+    <types>
+        <members>PropertyStatusPath</members>
+        <name>PathAssistant</name>
+    </types>
     <version>40.0</version>
 </Package>
