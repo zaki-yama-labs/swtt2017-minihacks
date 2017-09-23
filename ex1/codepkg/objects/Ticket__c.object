@@ -95,6 +95,19 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>NumberOfTotalSeats__c</fullName>
+        <externalId>false</externalId>
+        <formula>NumberOfChildSeats__c + NumberOfAdultSeats__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>総座席数</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ShowId__c</fullName>
         <externalId>false</externalId>
         <label>ショー</label>
@@ -108,6 +121,11 @@
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
     <label>チケット</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>すべて選択</label>
+    </listViews>
     <nameField>
         <label>チケット名</label>
         <type>Text</type>
