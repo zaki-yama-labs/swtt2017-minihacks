@@ -4,7 +4,7 @@
         <headerColor>#0070D2</headerColor>
     </brand>
     <formFactors>Large</formFactors>
-    <label>課1</label>
+    <label>課題1</label>
     <navType>Standard</navType>
     <tab>Show__c</tab>
     <tab>Ticket__c</tab>
