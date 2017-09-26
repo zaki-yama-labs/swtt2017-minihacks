@@ -6,11 +6,7 @@
     <li class="slds-item">
       <div class="slds-tile slds-media">
         <div class="slds-media__figure">
-          <c:svg
-            class="slds-icon slds-icon-standard-groups"
-            ariaHidden="true"
-            xlinkHref="/resource/LDS/assets/icons/standard-sprite/svg/symbols.svg#contact"
-          />
+          <lightning:icon iconName="standard:contact" alternativeText="Contact" />
         </div>
         <div class="slds-media__body">
           <h3 class="slds-truncate" title="{!contact.Name}">{!contact.Name}</h3>

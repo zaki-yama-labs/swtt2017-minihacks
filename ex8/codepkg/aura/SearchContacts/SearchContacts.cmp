@@ -1,13 +1,7 @@
-<aura:component implements="force:appHostable" controller="ContactController">
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" controller="ContactController" access="global">
   <aura:attribute name="contacts" type="Contact[]"/>
   <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
 
-  <ltng:require
-    styles="/resource/LDS/assets/styles/salesforce-lightning-design-system-vf.css"
-  />
-
-  <div class="zaki-yama-swtt16minihacks">
-    <c:SearchBar onEnterSearchBar="{!c.search}" />
-    <c:ContactList contacts="{!v.contacts}" />
-  </div>
+  <c:SearchBar onEnterSearchBar="{!c.search}" />
+  <c:ContactList contacts="{!v.contacts}" />
 </aura:component>
