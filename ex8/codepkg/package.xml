@@ -9,7 +9,6 @@
         <members>ContactList</members>
         <members>SearchBar</members>
         <members>OnEnterSearchBar</members>
-        <members>PreviewApp</members>
         <name>AuraDefinitionBundle</name>
     </types>
     <version>40.0</version>
