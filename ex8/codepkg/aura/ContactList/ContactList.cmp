@@ -10,11 +10,6 @@
         </div>
         <div class="slds-media__body">
           <h3 class="slds-truncate" title="{!contact.Name}">{!contact.Name}</h3>
-          <div class="slds-tile__detail slds-text-body--small">
-            <ul class="slds-list--horizontal slds-has-dividers--right">
-              <li class="slds-item">{!contact.Account.Name}</li>
-            </ul>
-          </div>
         </div>
       </div>
     </li>
