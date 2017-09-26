@@ -1,0 +1,7 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" controller="ContactController" access="global">
+  <aura:attribute name="contacts" type="Contact[]"/>
+  <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+  <c:SearchBar onEnterSearchBar="{!c.search}" />
+  <c:ContactList contacts="{!v.contacts}" />
+</aura:component>
